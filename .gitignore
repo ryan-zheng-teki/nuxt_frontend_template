@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# Nuxt 3
+.nuxt/
+.output/
+dist/ # Common for `nuxt generate`, though .output is primary for server builds
+
+# Environment Variables
+# Ignore all .env files, but keep .env.example tracked.
+.env
+.env.*
+!.env.example
+
+# IDE specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs
+*.log.*
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Build files
+*.tsbuildinfo
+
+# Other common ignores
+*.zip
+*.tar.gz
+*.rar
+
+# Specific to this project if any (none identified yet)
+
