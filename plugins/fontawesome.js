@@ -36,7 +36,13 @@ import {
   faTasks,
   faBackward, // Add for 'slow' speed
   faForward, // Add for 'fast' speed
-  faAtom // Add for visual flair maybe
+  faAtom, // Add for visual flair maybe
+  // Icons for the homepage
+  faCalendarAlt,
+  faClock,
+  faMapMarkedAlt,
+  faMapMarkerAlt,
+  faTrain
 } from '@fortawesome/free-solid-svg-icons'
 
 // This is important, otherwise the icons won't appear
@@ -78,12 +84,18 @@ export default defineNuxtPlugin(nuxtApp => {
     faExternalLinkAlt,
     faRobot,
     faTasks,
-    faBackward, // Added
-    faForward,  // Added
-    faAtom      // Added
+    faBackward,
+    faForward,
+    faAtom,
+    // Add homepage icons to the library
+    faCalendarAlt,
+    faClock,
+    faMapMarkedAlt,
+    faMapMarkerAlt,
+    faTrain
   )
 
   // Register the FontAwesomeIcon component globally
   nuxtApp.vueApp.component('FontAwesomeIcon', FontAwesomeIcon)
-  console.log('FontAwesome plugin configured with additional icons.');
+  console.log('FontAwesome plugin configured with additional icons, including homepage icons.');
 })
