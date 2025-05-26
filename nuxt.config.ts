@@ -26,13 +26,13 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'AutoByteus Chemistry Animation Workshop / 使用 AutoByteus 创建化学动画',
+      title: '柏林爱加华人基督教会 | Berlin Agape Chinese Christian Church', // Updated title
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: '线上研讨会：使用 AutoByteus 创建化学动画，AI‑Guided 化学动画实战 Workshop' }
+        { name: 'description', content: '柏林爱加华人基督教会 (Berlin Agape Chinese Christian Church) - 欢迎访问我们的官方网站，了解聚会时间、地点和更多信息。' } // Updated description
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' } // Assuming favicon can remain generic or user will update it later
       ]
     }
   },
